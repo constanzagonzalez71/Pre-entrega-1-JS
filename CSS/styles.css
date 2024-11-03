@@ -1,0 +1,23 @@
+/* Estilos básicos y responsive */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;
+}
+
+h1 {
+    color: #4a90e2;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+/* Media Query para pantallas pequeñas */
+@media (max-width: 600px) {
+    body {
+        font-size: 0.9em;
+    }
+}
